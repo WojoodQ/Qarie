@@ -1,0 +1,356 @@
+/* @import url('https://fonts.googleapis.com/css? family=Poppins&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Almarai', sans-serif;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.index {
+    background: linear-gradient(#c5c0c09d, #6FB1B4), url(../image/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    top: 2.5%;
+    right: 3.5%
+}
+
+.banner-text {
+    text-align: center;
+    color: #fff;
+    padding-top: 240px;
+}
+
+.banner-text pre {
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Aref Ruqaa', serif;
+}
+
+.banner-btn {
+    margin: 70px auto 0;
+}
+
+.banner-btn a {
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn a:hover span {
+    width: 100%;
+}
+
+.banner-btn a:hover {
+    color: #000;
+}
+
+/* ------- */
+/* TrackingPage style */
+/* ------- */
+
+.trackingPage {
+    background-color: #e8f5ee;
+}
+
+.review {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0.25px;
+    border: none;
+}
+
+.bn60 {
+    background-color: #3A727F;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 500;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+    width: 120px;
+    border: transparent;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+._table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    text-align: center;
+}
+
+._table :is(th, td) {
+    padding: 8px 10px;
+}
+
+._table :is(tr:nth-child(even)) {
+    background-color: rgb(220, 214, 214, 0.3);
+    /* background-color: rgba(249, 236, 209, 0.5); */
+    /* background-color: rgb(189, 229, 206, 0.5); */
+}
+
+
+._table :is(tr:nth-child(odd)) {
+    background-color: rgba(58, 114, 127, 0.4);
+    /* background-color: rgba(242, 212, 143, 0.5); */
+}
+
+/* Set border-radius on the top-left and bottom-left of the first table data on the table row */
+td:first-child,
+th:first-child {
+    border-radius: 0 13px 13px 0;
+}
+
+/* Set border-radius on the top-right and bottom-right of the last table data on the table row */
+td:last-child,
+th:last-child {
+    border-radius: 13px 0 0 13px;
+}
+
+th {
+    background-color: #e8f5ee;
+    border-color: #e8f5ee;
+}
+
+/* .success {
+    background-color: #24b96f !important;
+}
+
+.danger {
+    background-color: #ff5722 !important;
+} */
+.row-icon {
+    width: 27px;
+    height: 27px;
+}
+
+.action_container {
+    display: inline-flex;
+}
+
+.action_container>* {
+    border: none;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.banner-btn-tracking {
+    margin: 70px auto 0;
+    display: -webkit-box;
+    direction: ltr;
+    margin-left: 20%;
+}
+
+.banner-btn-tracking a {
+    position: absolute;
+    right: 65%;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #3A727F;
+    border: 1px solid #3A727F;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn-tracking a span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn-tracking a:hover span {
+    width: 100%;
+}
+
+.banner-btn-tracking a:hover {
+    color: #000;
+}
+
+/* test */
+.banner-btn-tracking input {
+    position: absolute;
+    right: 65%;
+    text-align: center;
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #3A727F;
+    border: 1px solid #3A727F;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    background-color: transparent;
+    height: 44px;
+    font-size: 1em;
+
+}
+
+.banner-btn-tracking input span {
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn-tracking input:hover span {
+    width: 100%;
+}
+
+.banner-btn-tracking input:hover {
+    color: #000;
+}
+
+/* test */
+
+.close-tracking {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-tracking:hover,
+.close-tracking:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.closeIcon-tracking {
+    padding-bottom: 30px;
+}
+
+.modal-container-tracking {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal-container-tracking.show {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.modal-tracking {
+    background-color:#e8f5ee;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    width: 450px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.modalContent-tracking {
+    padding: 3px 3px;
+}
+
+.modal-tracking h3 {
+    padding-bottom: 15px;
+}
+
+.modal-tracking h1 {
+    margin: 0;
+}
+
+.modal-tracking p {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.modal-container-tracking .modal-tracking .book-form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0.25px;
+    border: none;
+}
+progress {
+    -webkit-appearance: none;
+    width: 100px;
+    border-radius: 15px;
+}
+
+::-webkit-progress-bar {
+    background-color: lightgrey;
+}
+
+::-webkit-progress-value {
+    background-color:  #ed9190;
+}
+
+.book-review-input {
+    pointer-events: none;
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
